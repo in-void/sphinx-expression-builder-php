@@ -1,0 +1,19 @@
+{
+    "name": "in-void/sphinx-expression-builder",
+    "type": "library",
+    "description": "Sphinx expression builder",
+    "license": "Apache 2.0",
+    "require-dev": {
+        "phpunit/phpunit": "^6.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sphinx\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Sphinx\\Tests\\": "tests/"
+        }
+    }
+}
